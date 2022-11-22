@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+@import url("top.css");
+@import url("bottom.css");
+
+@keyframes updown{ 
+	from{
+		transform: translatey(0px);
+	  }
+	  to{
+		transform: translatey(-20px);
+	  }
+}
+/* reset */
+a { text-decoration: none; color: inherit; }
+body { font: normal 12px/1.5em "돋움","Dotum",sans-serif; }
+
+
+/* container */
+#container { width: 1200px; margin: 0 auto; padding-top: 80px; }
+.gnb2 { width: 100%; height: 30px; margin-top: 20px;}
+#container .gnb2 h2 { font-size: 30px; font-weight: bold;}
+#container select { font-size: 15px; float: right; border: none; }
+.hrsect { display: flex;
+	flex-basis: 100%;
+	align-items: center;
+	color: #000;
+	margin: 30px 0px; 
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "나눔","nanum";
+}
+.hrsect::before, .hrsect::after {  
+    content: "";
+	flex-grow: 1;
+	background: rgba(0, 0, 0, 0.5);
+	height: 2px;
+	font-size: 0px;
+	line-height: 0px;
+	margin: 0px 1px;
+}
+
+/* main2 */
+.main2 { width: 1200px; height: 2250px; text-align: center;}
+.main2 ul li { display: inline-block; margin-left: 10px; padding: 5px; border: 1px solid aquamarine; border-radius: 5px; background-color: #fff; }
+.main2 ul li img { width: 23px; height: 35px;   }
+.main2 p { font-size: 15px; margin-top: 10px; }
+.main2 h3 { font-size: 25px; font-family: "Malgun Gothic"; letter-spacing: -3px; margin-top: 10px; }
+.main2 p img { width: 360px; height: 420px; }
+
+.product2 { float: left; width: 350px; height: 700px; }
+.product3 { float: left; width: 350px; height: 700px; margin-left: 75px; }
+.product4 { float: right; width: 350px; height: 700px; }
+.product5 { float: left; width: 350px; height: 700px; }
+.product6 { float: left; width: 350px; height: 700px; margin-left: 75px;}
+.product7 { float: right; width: 350px; height: 700px;}
+.product8 { float: left; width: 350px; height: 700px;}
+.product9 { float: left; width: 350px; height: 700px; margin-left: 75px;}
+.product10 { float: right; width: 350px; height: 700px;}
+
+.product2 p a img:hover,.product3 p a img:hover,.product4 p a img:hover,.product5 p a img:hover,.product6 p a img:hover,.product7 p a img:hover,.product8 p a img:hover,.product9 p a img:hover,.product10 p a img:hover { width: 370px; height: 430px; animation: updown 1.4s infinite ease-in-out alternate;}
+.main2 div:nth-child(3n+1):hover{ background-color: rgba(255, 0, 0, 0.1); border-radius: 10px; }
+.main2 div:nth-child(3n+2):hover{ background-color: rgba(0, 0, 255, 0.1); border-radius: 10px } 
+.main2 div:nth-child(3n+3):hover{ background-color: rgba(238, 130, 238, 0.1); border-radius: 10px }
+
+.proname2 { font-size: 30px; font-family: "Dotum"; margin-bottom: 50px; padding-top: 15px;}

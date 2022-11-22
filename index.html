@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gateman - Digital Lock</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500&display=swap" rel="stylesheet">
+    <!--[if lt IE 9]> 
+        <script src=""></script>
+     <![endif]-->
+<!--     <script src="js/prefixfree.min.js"></script> -->
+    <link rel="shortcut icon" href="images/favicon/Webfavicon1.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/layout1.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+  /*웹페이지 열었을 때*/
+  $("#img1").show();
+  $("#img2").hide();
+
+  /*img1을 클릭했을 때 img2를 보여줌*/
+  $("#img1").click(function(){
+      $("#img1").hide();
+      $("#img2").show();
+  });
+
+  /*img2를 클릭했을 때 img1을 보여줌*/
+  $("#img2").click(function(){
+      $("#img1").show();
+      $("#img2").hide();
+  });
+});
+    </script>
+</head>
+<body>
+    <div id="top_wrap">
+        <header id="top">
+            <h1><a href="index.html"><img src="images/common/logo.png" alt="게이트맨"></a></h1>
+            <nav id="gnb">
+            <ul>
+                <li><a href="index.html">GATEMAN</a></li>
+                <li><a href="product.html">PRODUCT</a></li>
+                <li><a href="#">SERVICE</a></li>
+                <li><a href="#"> NEWS</a></li>
+             </ul>
+            </nav>
+            <ul id="loginbar">
+                <li><a href="login.html">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+             </ul>
+            
+        </header>       
+    </div>
+    <!-- container -->
+    <div id="container"> 
+       <p><a href="#"><img src="images/index/gp500rlaunch0725.png" alt="설명"></a></p>
+
+       <div class="hrsect">인기 급상승</div>
+
+       <section>
+        <h3>글자가리기</h3>
+         <article class="main1">
+                <h3>OFFLINE MODELS</h3>
+                <p class="proname1">AK-S101P-<br>
+                    FS(Dark Gray)</p>
+                <p class="ex1">무타공, 설치의 간편성, 인체공학적인 면,<br>
+                    푸쉬풀 손잡이의 편리성</p> 
+                <p class="chk"><img src="images/index/checkicon.png" alt="강조기능"> 허수기능, 이중잠금, 내화시험, 비상 전원 공급, 패닉기능 등</p>     
+                <p class="product"><img src="images/index/prd_view_AK-S101P(DG)front.png" alt="상품"></p>    
+                <p class="view1"><a href="#">View More +</a></p>
+         </article><!-- main1 -->
+
+         <div class="banner"><a href="#"><img src="images/index/welcomegift_20220712.jpg" alt=""></a></div>
+
+         <div class="hrsect">깜짝할인</div>
+
+         <article class="main2">
+            <div class="product2"><!-- 왼쪽 -->
+                <h2 class="proname2">G-SUIT scan</h2>
+                <p><a href="#"><img src="images/common/GCLICKscan.PNG" alt="상품"></a></p>
+                <ul>
+                    <li><img src="images/common/gatemanCard.png" alt="설명"></li>
+                    <li><img src="images/common/gatemanBiometric.png" alt="설명"></li>
+                    <li><img src="images/common/gatemanPin.png" alt="설명"></li>
+                    <li><img src="images/common/gatemanBlueTooth.png" alt="설명"></li>
+                </ul>
+                <p>가장 빠르게 세상이 열리는 퀵패스 지문인식</p>
+                <h3>572,000원</h3>
+            </div><!-- product2 -->
+            <div class="product3"><!-- 중앙 -->
+                <h2 class="proname2">G-SUIT simple+</h2>
+                <p><a href="#"><img src="images/common/Gsuitsimple.png" alt="상품"></a></p>
+                <ul>
+                    <li><img src="images/common/gatemanCard.png" alt="설명"></li>
+                    <li><img src="images/common/gatemanBiometric.png" alt="설명"></li>
+                    <li><img src="images/common/gatemanPin.png" alt="설명"></li>
+                    <li><img src="images/common/gatemanBlueTooth.png" alt="설명"></li>
+                </ul>
+                <p>간결함의 미학</p>
+                <h3>335,000원</h3>
+            </div><!-- product3 -->
+            <div class="product4"><!-- 오른쪽쪽 -->
+                <h2 class="proname2">G-GUIT touch</h2>
+                <p><a href="#"><img src="images/common/GSUITtouch.PNG" alt="상품"></a></p>
+                <ul>
+                    <li><img src="images/common/gatemanCard.png" alt="설명"></li>
+                    <li><img src="images/common/gatemanBiometric.png" alt="설명"></li>
+                    <li><img src="images/common/gatemanPin.png" alt="설명"></li>
+                    <li><img src="images/common/gatemanBlueTooth.png" alt="설명"></li>
+                </ul>
+                <p>우리집 대문의 품격을 올리는 푸시풀 도어락</p>
+                <h3>473,000원</h3>
+            </div><!-- product4 -->
+         </article><!-- main2 -->
+
+         <article class="main3">
+            <h3>글자가리기</h3>
+            <p class="m3txt1"><strong>온라인</strong>으로 간편하게<br>
+                사업 문의를<br> 해보세요.</p>
+            <p class="m3txt2"><img src="images/index/checkicon.png" alt="체크" id="img1"><img src="images/index/activeCheck.png" alt="체크" id="img2"><span>개인정보취급방침</span>에 동의합니다.</p>
+            <form action="#" method="post">
+                    <p class="m3txt3"><label for="i_name">이름<span>&#42;</span></label><input type="text" id="i_name"></p>
+                    <p class="m3txt3"><label for="i_mail">이메일<span>&#42;</span></label><input type="email" id="i_mail"></p>
+                    <p class="m3txt3"><label for="i_tel">연락처<span>&#42;</span></label><input type="tel" id="i_tel"></p>
+                    <p><textarea cols="30" rows="10" placeholder="문의사항 ( 1000자 이내 )" maxlength="1000"></textarea></p>
+                    <p class="onlineBtn"><input type="submit" value="온라인문의" id="OnBtn"></p>
+            </form>      
+         </article><!-- main3 -->
+       </section>
+    </div><!-- container -->
+
+    <footer><!-- footer -->
+        <div id="bottom">
+            <ul>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보 처리방침</a></li>
+                <li><a href="#">대리점 찾기</a></li>
+                <li><a href="#">브랜드 사이트</a></li>
+                <li><a href="#">이벤트</a></li>
+            </ul>
+            <p>아사아블로이코리아 (주)아이레보 | 대표자: 신현욱<br>
+               서울특별시 금천구 가산디지털1로 186 (가산동 459-11), 제이플라츠 빌딩 10층</p>
+            <address>Tel:070-8765-2067 | 사업자등록번호: 678-85-00227 | 통신판매업 신고번호: 2021-서울금천-2104</address>
+            <h2>070-8765-2067</h2>
+            <h3>평일 10:00 ~ 17:00 (점심시간 12:30 ~ 13:30)</h3>
+        </div><!-- bottom -->
+       </footer><!-- footer -->
+</body>
+</html>

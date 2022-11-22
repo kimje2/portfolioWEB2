@@ -1,0 +1,15 @@
+@charset "utf-8";
+#top_wrap { width: 100%; background-color: #333; position: fixed; z-index: 11111;  }
+
+#top { width: 1200px; height: 80px; margin: 0 auto; }
+#top h1 { float: left; }
+#top ul li { color: #fff; }
+
+#gnb {  width: 545px; height: 30px; text-align: center; float: left; margin-left: 240px; margin-top: 30px; } /* margin-top: 30px; 중앙에둠. 없애면최상단. 체크용도 */
+#gnb ul li { display: inline; font-size: 25px; font-family: 'Lobster', shapes; padding-left: 30px; }
+#gnb ul li a:hover { color: aquamarine; }
+
+#loginbar { text-align: right; }
+#loginbar li { font-size: 15px; display: inline; }
+#loginbar li:last-child { margin-left: 40px;}
+#loginbar li a:hover { text-decoration: underline #fff; }
